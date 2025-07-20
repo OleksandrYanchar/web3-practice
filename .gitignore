@@ -493,3 +493,4 @@ dataset/
 save/
 !contracts/auto-escrow-contracts/lib/
 !contracts/auto-escrow-contracts/lib/forge-std
+!/.gitmodules
