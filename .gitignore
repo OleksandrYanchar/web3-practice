@@ -490,3 +490,4 @@ hero_labels.parquet
 feedback.csv
 *.pth
 dataset/
+lib/**/test/
