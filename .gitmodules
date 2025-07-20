@@ -1,2 +1,4 @@
 [submodule "contracts/auto-escrow-contracts/lib/forge-std"]
 	path = contracts/auto-escrow-contracts/lib/forge-std
+[submodule "lib/forge-std"]
+	path = lib/forge-std
