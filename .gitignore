@@ -490,4 +490,6 @@ hero_labels.parquet
 feedback.csv
 *.pth
 dataset/
-lib/**/test/
+save/
+!contracts/auto-escrow-contracts/lib/
+!contracts/auto-escrow-contracts/lib/forge-std
