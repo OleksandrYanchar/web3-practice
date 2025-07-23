@@ -13,4 +13,13 @@ interface ICarNFT{
     function getMetadataByTokenId(uint256 tokenId) external view returns (string memory);
 
     function transferCar(address to, uint256 tokenId) external;
+
+    function rentCar(uint256 tokenId, uint64 durationDays) external;
+
+    function withdrawFunds() external;
+
+    function reclaimCar(uint256 tokenId) external;
+
+    function burn(uint256 tokenId) external;
+    
 }

@@ -5,4 +5,6 @@ library Errors {
     error InvalidVinLength();
     error NotAuthorized();
     error InvalidTransfer();
+    error InsufficientFunds();
+    error InvalidDuration();
 }
